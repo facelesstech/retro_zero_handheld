@@ -1,0 +1,213 @@
+EESchema Schematic File Version 4
+LIBS:zeroboy_new_back-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LRandPower:LRandPower U2
+U 1 1 5C2EA8ED
+P 5350 4850
+F 0 "U2" H 5072 4897 50  0000 R CNN
+F 1 "LRandPower" H 5072 4988 50  0000 R CNN
+F 2 "LRandPower:LRandPower" H 5350 4850 50  0001 C CNN
+F 3 "" H 5350 4850 50  0001 C CNN
+	1    5350 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L m3_standoffs:m3_standsoffs U3
+U 1 1 5C313CFC
+P 8500 2700
+F 0 "U3" H 8558 2735 50  0000 L CNN
+F 1 "m3_standsoffs" H 8558 2644 50  0000 L CNN
+F 2 "m3_hole_custom:m3_hole_custom" H 8500 2700 50  0001 C CNN
+F 3 "" H 8500 2700 50  0001 C CNN
+	1    8500 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L m3_standoffs:m3_standsoffs U4
+U 1 1 5C313D6F
+P 8500 2900
+F 0 "U4" H 8558 2935 50  0000 L CNN
+F 1 "m3_standsoffs" H 8558 2844 50  0000 L CNN
+F 2 "m3_hole_custom:m3_hole_custom" H 8500 2900 50  0001 C CNN
+F 3 "" H 8500 2900 50  0001 C CNN
+	1    8500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L m3_standoffs:m3_standsoffs U5
+U 1 1 5C313FB3
+P 8500 3100
+F 0 "U5" H 8558 3135 50  0000 L CNN
+F 1 "m3_standsoffs" H 8558 3044 50  0000 L CNN
+F 2 "m3_hole_custom:m3_hole_custom" H 8500 3100 50  0001 C CNN
+F 3 "" H 8500 3100 50  0001 C CNN
+	1    8500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L m3_standoffs:m3_standsoffs U6
+U 1 1 5C313FED
+P 8500 3300
+F 0 "U6" H 8558 3335 50  0000 L CNN
+F 1 "m3_standsoffs" H 8558 3244 50  0000 L CNN
+F 2 "m3_hole_custom:m3_hole_custom" H 8500 3300 50  0001 C CNN
+F 3 "" H 8500 3300 50  0001 C CNN
+	1    8500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_stuff:power_bank_green U7
+U 1 1 5C33A01D
+P 4900 2950
+F 0 "U7" H 5278 3290 50  0000 L CNN
+F 1 "power_bank_green" H 5278 3199 50  0000 L CNN
+F 2 "power_bank_boards:power_bank_green" H 4850 2950 50  0001 C CNN
+F 3 "" H 4850 2950 50  0001 C CNN
+	1    4900 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L battery_custom:battery_custom U1
+U 1 1 5C33A07A
+P 4850 3900
+F 0 "U1" H 4712 3922 50  0000 R CNN
+F 1 "battery_custom" H 4712 4013 50  0000 R CNN
+F 2 "battery_connector_custom:jst_2pin_custom" H 4850 3900 50  0001 C CNN
+F 3 "" H 4850 3900 50  0001 C CNN
+	1    4850 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 5C33A178
+P 5300 4350
+F 0 "SW1" V 5254 4498 50  0000 L CNN
+F 1 "SW_SPDT" V 5345 4498 50  0000 L CNN
+F 2 "buttons_custom:3_pin_switch_custom" H 5300 4350 50  0001 C CNN
+F 3 "" H 5300 4350 50  0001 C CNN
+	1    5300 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5C33A238
+P 5650 3050
+F 0 "SW2" H 5650 3335 50  0000 C CNN
+F 1 "SW_Push" H 5650 3244 50  0000 C CNN
+F 2 "buttons_custom:small_button_2pin_custom" H 5650 3250 50  0001 C CNN
+F 3 "" H 5650 3250 50  0001 C CNN
+	1    5650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5C33A2A9
+P 6150 4450
+F 0 "SW3" H 6150 4735 50  0000 C CNN
+F 1 "SW_Push" H 6150 4644 50  0000 C CNN
+F 2 "buttons_custom:smd_soft_custom" H 6150 4650 50  0001 C CNN
+F 3 "" H 6150 4650 50  0001 C CNN
+	1    6150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5C33A311
+P 6150 4800
+F 0 "SW4" H 6150 5085 50  0000 C CNN
+F 1 "SW_Push" H 6150 4994 50  0000 C CNN
+F 2 "buttons_custom:smd_soft_custom" H 6150 5000 50  0001 C CNN
+F 3 "" H 6150 5000 50  0001 C CNN
+	1    6150 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Micro J1
+U 1 1 5C33A3E7
+P 4000 3350
+F 0 "J1" H 4055 3817 50  0000 C CNN
+F 1 "USB_B_Micro" H 4055 3726 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 4150 3300 50  0001 C CNN
+F 3 "~" H 4150 3300 50  0001 C CNN
+	1    4000 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3150 4600 3150
+Wire Wire Line
+	4600 3150 4600 3050
+Wire Wire Line
+	4000 3750 4700 3750
+Wire Wire Line
+	4700 3750 4700 3050
+Wire Wire Line
+	3900 3750 4000 3750
+Connection ~ 4000 3750
+Wire Wire Line
+	4800 3050 4800 3800
+Wire Wire Line
+	4900 3050 4900 3250
+Wire Wire Line
+	5300 4750 5300 4550
+Wire Wire Line
+	5300 4550 5400 4550
+Wire Wire Line
+	5300 4150 5300 3200
+Wire Wire Line
+	5300 3200 5100 3200
+Wire Wire Line
+	5100 3200 5100 3050
+Wire Wire Line
+	5000 3050 5000 4750
+Wire Wire Line
+	5000 4750 5200 4750
+Wire Wire Line
+	5200 3050 5450 3050
+Wire Wire Line
+	5950 4450 5600 4450
+Wire Wire Line
+	5600 4450 5600 4650
+Wire Wire Line
+	5600 4650 5400 4650
+Wire Wire Line
+	5400 4650 5400 4750
+Wire Wire Line
+	5950 4800 5950 4750
+Wire Wire Line
+	5950 4750 5500 4750
+Wire Wire Line
+	6350 4450 6450 4450
+Wire Wire Line
+	6450 5200 5000 5200
+Wire Wire Line
+	5000 5200 5000 4750
+Connection ~ 5000 4750
+Wire Wire Line
+	6350 4800 6450 4800
+Wire Wire Line
+	6450 4450 6450 4800
+Connection ~ 6450 4800
+Wire Wire Line
+	6450 4800 6450 5200
+Wire Wire Line
+	5850 3050 5850 3250
+Wire Wire Line
+	5850 3250 4900 3250
+Connection ~ 4900 3250
+Wire Wire Line
+	4900 3250 4900 3800
+$EndSCHEMATC

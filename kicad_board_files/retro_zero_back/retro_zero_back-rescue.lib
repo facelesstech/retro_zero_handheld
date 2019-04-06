@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# power_bank_green-My_stuff
+#
+DEF power_bank_green-My_stuff U 0 40 Y Y 1 F N
+F0 "U" 400 350 50 V V C CNN
+F1 "power_bank_green-My_stuff" -450 350 50 V V C CNN
+F2 "" -50 0 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
+DRAW
+S -350 0 350 700 0 1 0 N
+X Batt_+ ~ -100 -100 100 U 50 50 1 1 I
+X Batt_- ~ 0 -100 100 U 50 50 1 1 I
+X GND_in ~ -200 -100 100 U 50 50 1 1 I
+X GND_out ~ 100 -100 100 U 50 50 1 1 I
+X KEY ~ 300 -100 100 U 50 50 1 1 I
+X VCC_in ~ -300 -100 100 U 50 50 1 1 I
+X VCC_out ~ 200 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
